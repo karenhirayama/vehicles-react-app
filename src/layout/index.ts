@@ -1,2 +1,2 @@
-export { CarCards } from "./CarCards/CarCards";
+export { CarCard } from "./CarCard/CarCard";
 export { Table } from "./Table/Table";

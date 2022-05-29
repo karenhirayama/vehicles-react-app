@@ -6,8 +6,8 @@ export const NavbarContainer = styled.nav`
     width: 100%;
     height: 96px;
     display: flex;
-    background-color: #1D2527;
-`
+    z-index: 10;
+ `
 
 export const NavbarLogo = styled.img`
     width: 48.75px;
@@ -113,6 +113,7 @@ export const NavbarSmallScreenContainer = styled.div`
     padding-left: 32.13px;
     box-shadow: 3px 0px 9px rgba(0, 0, 0, 0.15);
     border-radius: 0px 24px 24px 0px;
+    z-index: inherit;
 
     @media (min-width: 750px) {
         display: none;
