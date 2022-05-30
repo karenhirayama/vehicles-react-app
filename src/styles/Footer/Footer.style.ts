@@ -74,7 +74,6 @@ export const FooterBtn = styled.button`
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #FFFFFF;
 
     @media (max-width: 1000px) {

@@ -16,7 +16,7 @@ export const Home = () => {
     }
   }
 
-  const handleSubtractNumberSlice = () => {
+  const handleSubtractNumberSlice = ( ) => {
     if (numberSlice !== 0) {
       setNumberSlice(numberSlice - 1)
     }

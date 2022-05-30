@@ -44,15 +44,19 @@ export const HomeBgImg = styled.div`
     }
 
     @media (max-width: 865px) {
-        height: 126vh;
+        height: 106vh;
     }
 
     @media (max-width: 750px) {
-        height: 120vh;
+        height: 85vh;
     }
 
     @media (max-width: 650px) {
-        height: 98vh;
+        height: 85vh;
+    }
+
+    @media (max-width: 600px) {
+        height: 70vh;
     }
 `
 

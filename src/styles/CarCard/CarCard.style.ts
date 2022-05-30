@@ -20,6 +20,9 @@ export const CarImgContainer = styled.div`
     display: flex;
     justify-content: center;
 
+    @media (max-width: 600px) {
+        width: 420px;
+    }
 `
 
 export const CarImg = styled.img`
