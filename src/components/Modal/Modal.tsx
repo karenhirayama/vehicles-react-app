@@ -14,7 +14,6 @@ interface ModalProps {
 export const Modal: FC<ModalProps> = ({ isOpen, handleClose, inputValues, handleInputChange, handleValuesCar, handleAddNewCar }) => {
   if (!isOpen) return null;
 
-console.log(inputValues.image_src)
   return (
     <ModalBackground>
       <ModalContainer>
