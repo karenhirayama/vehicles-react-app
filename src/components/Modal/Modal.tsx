@@ -24,7 +24,7 @@ console.log(inputValues.image_src)
         </ModalHeader>
         <InputContainer>
           <InputImage>
-            <img src={inputValues.image_src || inputImg} alt="Input Image" />
+            <img src={inputValues.image_src || inputImg} alt="Input" />
             <label htmlFor="file">Selecionar Image</label>
             <input type="file" id="file" name="Input" style={{ visibility: 'hidden' }}
                 onChange={(e) => handleInputChange(e)} />
@@ -32,7 +32,7 @@ console.log(inputValues.image_src)
           <InputText>
             <InputSection>
               <label htmlFor="name">Nome</label>
-              <input name="name" id="name" type="text"
+              <input name="name" id="name" type="text" maxLength={12}
                 value={inputValues?.name}
                 onChange={(e) => handleInputChange(e)} />
             </InputSection>
@@ -50,19 +50,19 @@ console.log(inputValues.image_src)
             </InputSection>
             <InputSection>
               <label htmlFor="economic_rating">Nota economica</label>
-              <input name="economic_rating" id="economic_rating" type="number"
+              <input name="economic_rating" id="economic_rating" type="number" min="0" max="1"
                 value={inputValues?.economic_rating}
                 onChange={(e) => handleInputChange(e)} />
             </InputSection>
             <InputSection>
               <label htmlFor="users_rating">Nota usuários</label>
-              <input name="users_rating" id="users_rating" type="number"
+              <input name="users_rating" id="users_rating" type="number" min="0" max="1" 
                 value={inputValues?.users_rating}
                 onChange={(e) => handleInputChange(e)} />
             </InputSection>
             <InputSection>
               <label htmlFor="product_link">Link produto</label>
-              <input name="product_link" id="product_link" type="text"
+              <input name="product_link" id="product_link" type="text" maxLength={50}
                 value={inputValues?.product_link}
                 onChange={(e) => handleInputChange(e)} />
             </InputSection>

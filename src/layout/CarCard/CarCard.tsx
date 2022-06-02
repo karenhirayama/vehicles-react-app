@@ -1,6 +1,6 @@
-import { FC } from "react"
-import { CarProps } from "../../interfaces"
-import { CarLink, CarCardContainer, CarImg, CarImgContainer, CarInfo, CarInfosContainer, CarName, InfoIcon } from "../../styles"
+import { FC } from "react";
+import { CarProps } from "../../interfaces";
+import { CarLink, CarCardContainer, CarImg, CarImgContainer, CarInfo, CarInfosContainer, CarName, InfoIcon } from "../../styles";
 
 export const CarCard: FC<CarProps> = ({ name, year, speed, economic_rating, users_rating, image_src, product_link, image_style }) => {
 
