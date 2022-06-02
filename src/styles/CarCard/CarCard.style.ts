@@ -11,6 +11,11 @@ export const CarCardContainer = styled.div`
     height: 362px;
     margin-top: 148px;
     padding: 24px 32px;
+
+    @media (max-width: 700px) {
+        width: 278px;
+        position: relative;
+    }
 `
 
 export const CarImgContainer = styled.div`
@@ -21,13 +26,21 @@ export const CarImgContainer = styled.div`
     justify-content: center;
 
     @media (max-width: 600px) {
-        width: 420px;
+        width: 226px;
+        position: relative;
     }
 `
 
 export const CarImg = styled.img`
     width: 300px;
     transform: translate(-22%, -100%);
+
+    @media (max-width: 600px) {
+        transform: translate(-1%, -100%) !important;
+        width: 226px !important;
+        height: 171px !important;
+        object-fit: contain;
+    }
 `
 
 export const CarName = styled.h2`
@@ -37,12 +50,20 @@ export const CarName = styled.h2`
     font-size: 24px;
     line-height: 150%;
     margin: 24px auto;
+
+    @media (max-width: 600px) {
+        margin-top: -197px;
+    }
 `
 
 export const CarInfosContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    @media (max-width: 600px) {
+        gap: 10px;
+    }
 `
 
 export const CarInfo = styled.div`

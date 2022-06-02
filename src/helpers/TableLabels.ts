@@ -1,0 +1,1 @@
+export const TableLabels = ['Nome', 'Ano', 'Velocidade máx Km/h', 'Nota Economica', 'Nota usuários'] 

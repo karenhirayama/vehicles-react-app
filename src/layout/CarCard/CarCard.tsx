@@ -2,7 +2,7 @@ import { FC } from "react"
 import { CarProps } from "../../interfaces"
 import { CarLink, CarCardContainer, CarImg, CarImgContainer, CarInfo, CarInfosContainer, CarName, InfoIcon } from "../../styles"
 
-export const CarCard: FC<CarProps> = ({ index, name, year, speed, economic_rating, users_rating, image_src, product_link, image_style }) => {
+export const CarCard: FC<CarProps> = ({ name, year, speed, economic_rating, users_rating, image_src, product_link, image_style }) => {
 
   return (
     <CarCardContainer>
@@ -21,11 +21,11 @@ export const CarCard: FC<CarProps> = ({ index, name, year, speed, economic_ratin
         </CarInfo>
         <CarInfo>
           <InfoIcon icon="simple-line-icons:energy" />
-          {economic_rating}
+          {economic_rating * 10}/10
         </CarInfo>
         <CarInfo>
           <InfoIcon icon="fluent:people-20-regular" />
-          {users_rating}
+          {users_rating * 10}/10
         </CarInfo>
       </CarInfosContainer>
       <CarLink href={product_link}>

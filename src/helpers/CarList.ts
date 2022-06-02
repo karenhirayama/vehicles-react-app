@@ -4,11 +4,12 @@ import CarImg3 from '../assets/images/card-img3.svg'
 
 export const CarList = [
     {
+        id: '1',
         name: 'Mustang',
         year: 2015,
         speed: 180,
-        economic_rating: '9/10',
-        users_rating: '8/10',
+        economic_rating: 9/10,
+        users_rating: 8/10,
         image_src: CarImg1,
         image_style: {
             marginTop: '18px',
@@ -16,11 +17,12 @@ export const CarList = [
         }
     },
     {
+        id: '2',
         name: 'Mustang',
         year: 2015,
         speed: 180,
-        economic_rating: '9/10',
-        users_rating: '8/10',
+        economic_rating: 9/10,
+        users_rating: 8/10,
         image_src: CarImg2,
         image_style: {
             width: '320px',
@@ -28,11 +30,12 @@ export const CarList = [
         }
     },
     {
+        id: '3',
         name: 'Mustang',
         year: 2015,
         speed: 180,
-        economic_rating: '9/10',
-        users_rating: '8/10',
+        economic_rating: 9/10,
+        users_rating: 8/10,
         image_src: CarImg3,
         image_style: {
             width: '480px',

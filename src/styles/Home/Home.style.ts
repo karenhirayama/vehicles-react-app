@@ -39,24 +39,41 @@ export const HomeBgImg = styled.div`
     }
 
     @media (max-width: 1300px) {
-        height: 137vh;
+        height: 110vh;
         margin-top: -150px;
     }
 
-    @media (max-width: 865px) {
-        height: 106vh;
+    @media (max-width: 1140px) {
+         margin-top: -120px;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 1000px) {
         height: 85vh;
     }
 
-    @media (max-width: 650px) {
-        height: 85vh;
+    @media (max-width: 850px) {
+        height: 75vh;
     }
 
-    @media (max-width: 600px) {
-        height: 70vh;
+    @media (max-width: 700px) {
+        margin-top: -120px;
+        height: 60vh;
+    }
+
+    @media (max-width: 550px) {
+        height: 50vh;
+    }
+
+    @media (max-width: 430px) {
+        height: 45vh;
+    }
+
+    @media (max-width: 400px) {
+        height: 40vh;
+    }
+
+    @media (max-width: 350px) {
+        height: 36vh;
     }
 `
 
@@ -65,6 +82,13 @@ export const CardsContainer = styled.div`
     align-items: center;
     padding: 0 60px 48px 60px;
     background-color: #EBEFF2;
+
+    @media (max-width: 700px) {
+        padding-left: 24px;
+        gap: 10px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
 `
 
 export const CardsBtn = styled(Icon)`
@@ -72,6 +96,10 @@ export const CardsBtn = styled(Icon)`
     cursor: pointer;
     font-size: 30px;
     z-index: 10;
+
+     @media (max-width: 700px) {
+        display: none;
+    }
 `
 
 export const CarCardsLargeScreen = styled.div`
@@ -97,7 +125,7 @@ export const CarCardsMediumScreen = styled.div`
         display: none;
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 1130px) {
         display: none;
     }
 `
@@ -106,7 +134,22 @@ export const CarCardsSmallScreen = styled.div`
     display: flex;
     margin: auto;
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1130px) {
+        display: none;
+    }
+`
+
+export const CarCardsExtraSmallScreen = styled.div`
+    display: flex;
+    
+    & > div {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    @media (min-width: 700px) {
         display: none;
     }
 `
@@ -118,6 +161,10 @@ export const CardsProgressBar = styled.div`
     width: 100%;
     background-color: #EBEFF2;
     padding-bottom: 40px;
+
+    @media (max-width: 700px) {
+        display: none;
+    }
 `
 
 export const FooterLargeScreen = styled.div`
@@ -129,7 +176,6 @@ export const FooterLargeScreen = styled.div`
 `
 
 export const FooterSmallScreen = styled.div`
-
     @media (min-width: 1000px) {
         display: none;
     }

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import FooterLargeScreen from '../../assets/images/footer-large-screen.svg';
 import FooterSmallScreen from '../../assets/images/footer-small-screen.png';
-import FooterCloud from '../../assets/images/footer-small-screen-cloud.png'; 
 
 export const FooterContainer = styled.div`
     display: flex;
@@ -18,7 +17,7 @@ export const FooterContainer = styled.div`
     backdrop-filter: blur(17px);
 
     @media (max-width: 1000px) {
-        background-image: url(${FooterSmallScreen}), url(${FooterCloud});
+        background-image: url(${FooterSmallScreen});
         height: 883px;
         width: auto;
         background-position: right bottom;
@@ -28,6 +27,25 @@ export const FooterContainer = styled.div`
         padding-right: 24px;
     }
 
+    @media (max-width: 700px) {
+        height: 700px;
+        background-position: left bottom;
+    }
+
+`
+
+export const FooterCloudBackground = styled.div`
+
+    @media (max-width: 1000px) {
+        background-image: url(${FooterSmallScreen});
+        height: 883px;
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-right: 24px;
+    }
 `
 
 export const FooterTitle = styled.h1`
