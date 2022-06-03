@@ -44,17 +44,17 @@ export const HomeBgImg = styled.div`
     }
 
     @media (max-width: 1300px) {
-        height: 100vh;
+        height: 120vh;
         margin-top: -150px;
     }
 
     @media (max-width: 1140px) {
-        height: 90vh;
+        height: 110vh;
         margin-top: -120px;
     }
 
     @media (max-width: 1000px) {
-        height: 85vh;
+        height: 95vh;
     }
 
     @media (max-width: 850px) {
@@ -70,16 +70,8 @@ export const HomeBgImg = styled.div`
         height: 50vh;
     }
 
-    @media (max-width: 430px) {
-        height: 40vh;
-    }
-
-    @media (max-width: 400px) {
+    @media (max-width: 380px) {
         height: 35vh;
-    }
-
-    @media (max-width: 350px) {
-        height: 30vh;
     }
 `
 
