@@ -33,6 +33,7 @@ export const ActionIcon = styled(Icon)`
     display: flex;
     font-size: 20px;
     color: #1D2527;
+    cursor: pointer;
 `
 export const TableBodyBtn = styled.h4`
     border: 1px solid #1D2527;

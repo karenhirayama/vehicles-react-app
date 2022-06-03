@@ -42,4 +42,9 @@ export const BuildPageComeBackBtn = styled.button`
     text-align: center;
     color: #1D2527;
     cursor: pointer;
+
+    &:hover {
+        background-color: #1D2527;
+        color: white; 
+    }
 `

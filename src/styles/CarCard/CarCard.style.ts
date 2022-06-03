@@ -96,4 +96,9 @@ export const CarLink = styled.a`
     text-decoration: none;
     display: flex;
     justify-content: center;
+
+    &:hover {
+        background-color: #1D2527;
+        color: white; 
+    }
 `

@@ -53,14 +53,15 @@ export const NavbarLink = styled(Link)`
     color: #EBEFF2;
     margin: auto;
 
+    &:hover {
+        border-bottom: 2px solid #1D2527;
+    }
+
    @media (max-width: 750px) {
         color: #1D2527;
         margin-left: 0;
         margin-bottom: 32px;
 
-        &:hover {
-            border-bottom: 2px solid #1D2527;
-        }
     } 
 `
 

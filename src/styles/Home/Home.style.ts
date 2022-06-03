@@ -33,8 +33,8 @@ export const HomeBgImg = styled.div`
         width: 100%;
     }
 
-    @media (max-width: 1711px) {
-        height: 154vh;
+    @media (max-width: 1750px) {
+        height: 140vh;
         margin-top: -250px;
     }
 
@@ -44,34 +44,38 @@ export const HomeBgImg = styled.div`
     }
 
     @media (max-width: 1300px) {
-        height: 120vh;
+        height: 130vh;
         margin-top: -150px;
     }
 
     @media (max-width: 1140px) {
-        height: 110vh;
+        height: 120vh;
         margin-top: -120px;
     }
 
     @media (max-width: 1000px) {
-        height: 95vh;
+        height: 110vh;
     }
 
     @media (max-width: 850px) {
-        height: 75vh;
+        height: 90vh;
     }
 
     @media (max-width: 700px) {
         margin-top: -120px;
-        height: 60vh;
+        height: 80vh;
+    }
+
+    @media (max-width: 650px) {
+        height: 64vh;
     }
 
     @media (max-width: 550px) {
-        height: 50vh;
+        height: 54vh;
     }
 
     @media (max-width: 380px) {
-        height: 35vh;
+        height: 45vh;
     }
 `
 

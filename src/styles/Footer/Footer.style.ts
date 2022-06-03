@@ -94,6 +94,11 @@ export const FooterBtn = styled.button`
     text-align: center;
     color: #FFFFFF;
 
+    &:hover {
+        background-color: white;
+        color: #1D2527; 
+    }
+
     @media (max-width: 1000px) {
         margin-top: 20px;
         padding: 4px 56px;

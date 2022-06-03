@@ -50,4 +50,8 @@ export const AddBtn = styled.button`
         font-size: 16px;
         margin: 0;
     }
+
+    &:hover {
+        background-color: whitesmoke;
+    }
 `

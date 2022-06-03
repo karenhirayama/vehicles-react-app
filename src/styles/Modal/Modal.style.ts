@@ -122,6 +122,7 @@ export const BtnSection = styled.div`
     line-height: 200%;
     color: #000000;
     border: none;
+    cursor: pointer;
   }
 
   & .btn__add {
@@ -132,6 +133,11 @@ export const BtnSection = styled.div`
     gap: 10px;
     background: #1D2527;
     border-radius: 21px;
+    cursor: pointer;
+
+    &:hover {
+      background: #1e1e1e;
+    }
 
     & > p {
       display: flex;
